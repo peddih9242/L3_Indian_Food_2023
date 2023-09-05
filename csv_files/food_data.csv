@@ -1,256 +1,256 @@
-﻿ID,name,ingredients,diet,prep_time,cook_time,flavour_ID,course_ID,state_ID
-1,Balu shahi,"Maida flour, yogurt, oil, sugar",0,45,25,5,4,25
-2,Boondi,"Gram flour, ghee, sugar",0,80,30,5,4,19
-3,Gajar ka halwa,"Carrots, milk, sugar, ghee, cashews, raisins",0,15,60,5,4,18
-4,Ghevar,"Flour, ghee, kewra, milk, clarified butter, sugar, almonds, pistachio, saffron, green cardamom",0,15,30,5,4,19
-5,Gulab jamun,"Milk powder, plain flour, baking powder, ghee, milk, sugar, water, rose water",0,15,40,5,4,25
-6,Imarti,"Sugar syrup, lentil flour",0,10,50,5,4,25
-7,Jalebi,"Maida, corn flour, baking soda, vinegar, curd, water, turmeric, saffron, cardamom",0,10,50,5,4,23
-8,Kaju katli,"Cashews, ghee, cardamom, sugar",0,10,20,5,4,1
-9,Kalakand,"Milk, cottage cheese, sugar",0,20,30,5,4,25
-10,Kheer,"Milk, rice, sugar, dried fruits",0,10,40,5,4,1
-11,Laddu,"Gram flour, ghee, sugar",0,10,40,5,4,1
-12,Lassi,"Yogurt, milk, nuts, sugar",0,5,5,5,4,18
-13,Nankhatai,"Refined flour, besan, ghee, powdered sugar, yoghurt, green cardamom",0,20,30,5,4,1
-14,Petha,"Firm white pumpkin, sugar, kitchen lime, alum powder",0,10,30,5,4,23
-15,Phirni,"Rice, sugar, nuts",0,30,20,5,4,17
-16,Rabri,"Condensed milk, sugar, spices, nuts",0,10,45,5,4,23
-17,Sheera,"Semolina, ghee, nuts, milk",0,10,25,5,4,13
-18,Singori,"Khoa, coconut, molu leaf",0,10,20,5,4,24
-19,Sohan halwa,"Corn flour, ghee, dry fruits",0,10,60,5,4,23
-20,Sohan papdi,"Gram flour, ghee, sugar, milk, cardamom",0,-1,60,5,4,13
-21,Chhena jalebi,"Chhena, sugar, ghee",0,10,50,5,4,17
-22,Chhena kheeri,"Chhena, sugar, milk",0,-1,60,5,4,17
-23,Chhena poda,"Sugar, chenna cheese",0,10,45,5,4,17
-24,Cham cham,"Flour, cream, sugar, saffron, lemon juice, coconut flakes",0,40,60,5,4,25
-25,Kheer sagar,"Chenna, condensed milk, sugar, saffron, cardamom",0,25,60,5,4,17
-26,Ledikeni,"Chhena, sugar, ghee",0,45,45,5,4,25
-27,Lyangcha,"Flour, fried milk power, sugar syrup",0,20,30,5,4,3
-28,Malapua,"Yoghurt, refined flour, ghee, fennel seeds",0,10,120,5,4,4
-29,Mihidana,"Besan flour, sugar, ghee",0,15,30,5,4,25
-30,Misti doi,"Milk, jaggery",0,480,30,5,4,25
-31,Pantua,"Chhena, sugar, ghee, flour",0,45,45,5,4,25
-32,Pithe,"Rice flour, wheat flour",0,15,35,5,4,3
-33,Rasabali,"Chenna, sweetened milk",0,15,30,5,4,17
-34,Ras malai,"Chhena, reduced milk, pistachio",0,180,60,5,4,25
-35,Rasgulla,"Chhena, sugar, cardamom",0,10,90,5,4,25
-36,Sandesh,"Milk, sugar, saffron, cardamom",0,30,20,5,4,25
-37,Adhirasam,"Rice flour, jaggery, ghee, vegetable oil, elachi",0,10,50,5,4,25
-38,Ariselu,"Rice flour, jaggery, ghee",0,15,75,5,4,2
-39,Bandar laddu,"Besan, jaggery, cardamom powder, ghee, cashews and raisins, jaggery syrup, sugar",0,5,35,5,4,2
-40,Chikki,"Peanuts, jaggery",0,10,20,5,4,13
-41,Dharwad pedha,"Milk, Sugar, Dharwadi buffalo milk",0,20,60,5,4,10
-42,Double ka meetha,"Loaf bread, milk",0,20,30,5,4,21
-43,Gavvalu,"Rice flour, sugar, salt, ghee, semolina",0,10,30,5,4,2
-44,Kakinada khaja,"Wheat flour, sugar",0,10,30,5,4,2
-45,Kuzhi paniyaram,"Black lentils, rice",0,10,20,5,4,11
-46,Mysore pak,"Besan flour, semolina, mung bean, jaggery, coconut, skimmed milk powder, sugar, ghee",0,5,20,5,4,10
-47,Obbattu holige,"Maida flour, turmeric, coconut, chickpeas, jaggery, ghee, cardamom",0,180,60,5,3,10
-48,Palathalikalu,"Rice flour, milk",0,10,25,5,4,2
-49,Poornalu,"Chana dal, jaggery",0,240,60,5,4,2
-50,Pongal,"Rice, jaggery, cashews, ghee",0,5,20,5,4,20
-51,Pootharekulu,"Rice flour, powdered sugar, ghee",0,10,60,5,4,2
-52,Qubani ka meetha,"Apricots, sugar syrup",0,10,20,5,4,21
-53,Sheer korma,"Vermicelli pudding, milk",0,10,20,5,4,21
-54,Unni Appam,"Rice flour, banana, jaggery, coconut",0,10,20,5,4,20
-55,Kajjikaya,"Rice flour, jaggery, coconut",0,40,15,5,4,2
-56,Anarsa,"Rice flour, jaggery, khus-khus seeds",0,10,50,5,4,13
-57,Basundi,"Sugar, milk, nuts",0,10,35,5,4,7
-58,Dhondas,"Cucumber, rava",0,10,50,5,4,13
-59,Doodhpak,"Milk, rice, sugar, dry fruits",0,10,60,5,4,7
-60,Mahim halwa,"Semolina, sugar",0,10,25,5,4,13
-61,Modak,"Rice flour, coconut, jaggery ",0,10,15,5,4,13
-62,Shankarpali,"Sugar, ghee, maida flour, semolina",0,10,35,5,4,13
-63,Shrikhand,"Curd, sugar, saffron, cardamom",0,10,720,5,4,13
-64,Sutar feni,"Maida, sugar, ghee",0,15,55,5,4,13
-65,Maach Jhol,"Fish, potol, tomato, chillies, ginger, garlic",1,10,40,4,3,3
-66,Pork Bharta,"Boiled pork, onions, chillies, ginger and garlic",1,-1,-1,4,3,22
-67,Chak Hao Kheer,"Rice, milk, sugar, cardamom",0,240,45,5,4,14
-68,Galho,"Rice, axone, salt, water, chillies, pork",1,5,15,4,3,15
-69,Aloo gobi,"Cauliflower, potato, garam masala, turmeric, curry leaves",0,10,20,4,3,18
-70,Aloo tikki,"Rice flour, potato, bread crumbs, garam masala, salt",0,5,20,4,3,18
-71,Aloo matar,"Potato, peas, chillies, ginger, garam masala, garlic",0,5,40,4,3,18
-72,Aloo methi,"Potato, fenugreek leaves, chillies, salt, oil",0,10,40,2,3,18
-73,Aloo shimla mirch,"Potato, shimla mirch, garam masala, amchur powder, salt",0,10,40,4,3,18
-74,Bhatura,"Chole, rava, yogurt, plain flour, baking soda",0,20,20,4,3,18
-75,Bhindi masala,"Ladies finger, garam masala, kasuri methi, tomatoes, chili powder",0,20,30,4,3,18
-76,Biryani,"Chicken thighs, basmati rice, star anise, sweet, green chillies",1,30,120,4,3,21
-77,Butter chicken,"Chicken, greek yogurt, cream, garam masala powder, cashew nuts, butter",1,10,35,4,3,16
-78,Chana masala,"Chickpeas, tomato paste, garam masala, ginger, red onion, avocado oil",0,20,30,4,3,18
-79,Chapati,"Whole wheat flour, olive oil, hot water, all purpose flour",0,10,10,1,3,13
-80,Chicken razala,"Chicken, dahi, sesame seeds, garam masala powder, cashew nuts, saffron",1,10,35,4,3,25
-81,Chicken Tikka masala,"Naan bread, tomato sauce, skinless chicken breasts, heavy cream, garam masala",1,10,50,4,3,18
-82,Chicken Tikka,"Chicken, whole wheat bread, rice flour, garam masala powder, whole egg",1,120,45,4,2,18
-83,Chole bhature,"Chole, bhatura, garam masala, bay leaf, cinnamon stick",0,20,30,4,3,18
-84,Daal baati churma,"Moong dal, masoor dal, chana dal, wheat flour, almond",0,10,90,4,3,19
-85,Daal puri,"Moong dal, garam masala powder, garlic, green chilli, all purpose flour",0,30,30,4,3,25
-86,Dal makhani ,"Red kidney beans, urad dal, cream, garam masala, chili powder",0,10,60,5,3,18
-87,Dal tadka,"Pigeon peas, garam masala, ginger, red onion, kasuri methi",0,10,30,4,3,18
-88,Dum aloo,"Baby potatoes, garam masala, cashew nuts, kasuri methi, tomatoes",0,20,50,4,3,9
-89,Poha,"Beaten rice flakes, potato, curry leaves, green chilies, lemon juice",0,20,30,4,1,13
-90,Fara,"Chana dal, whole wheat flour, arhar dal, white urad dal, garam masala powder",0,10,60,4,1,5
-91,Kachori,"Moong dal, rava, garam masala, dough, fennel seeds",0,30,60,4,1,23
-92,Kadai paneer,"Cottage cheese, bell peppers, gravy, garam masala, cashew nuts",0,20,30,4,3,18
-93,Kadhi pakoda,"Besan, garam masala powder, gram flour, ginger, curry leaves",0,10,60,4,3,8
-94,Karela bharta,"Bitter gourd, fennel, garam masala powder, chili powder, amchur powder",0,20,50,2,3,18
-95,Khichdi,"Moong dal, green peas, ginger, tomato, green chili",0,40,20,4,3,1
-96,Kofta,"Paneer, potato, cream, corn flour, garam masala",0,20,40,4,3,23
-97,Kulfi falooda,"Rose syrup, falooda sev, mixed nuts, saffron, sugar",0,45,25,5,4,1
-98,Lauki ke kofte,"Bottle gourd, garam masala powder, gram flour, ginger, chillies",0,20,40,4,3,23
-99,Lauki ki subji,"Bottle gourd, coconut oil, garam masala, ginger, green chillies",0,10,20,4,3,1
-100,Litti chokha,"Wheat flour, roasted gram flour, tomato, nigella seeds, chilli",0,45,60,4,3,4
-101,Makki di roti sarson da saag,"Palak, makki atta, mustard green, garam masala, ginger",0,25,30,4,3,18
-102,Misi roti,"Whole wheat flour, chickpea flour, green chilies",0,30,30,4,3,18
-103,Mushroom do pyaza,"Mushroom, malai, garam masala, ginger, capsicum",0,10,30,4,3,18
-104,Mushroom matar,"Canned coconut milk, frozen green peas, wild mushrooms, garam masala, tomatoes",0,10,30,4,3,18
-105,Naan,"Whole wheat flour, honey, butter, garlic",0,60,30,1,3,18
-106,Navrattan korma,"Green beans, potatoes, khus khus, low fat, garam masala powder",0,25,40,4,3,23
-107,Palak paneer,"Cottage cheese, palak, cream, garam masala, butter",0,20,40,4,3,18
-108,Paneer butter masala,"Paneer, whipping cream, garam masala, cashew nuts, butter",0,20,40,4,3,18
-109,Paneer tikka masala,"Paneer, greek yogurt, tandoori masala, cream, bell pepper",0,20,40,4,3,18
-110,Pani puri,"Kala chana, mashed potato, boondi, sev, lemon",0,15,2,4,1,1
-111,Panjeeri,"Whole wheat flour, musk melon seeds, poppy seeds, edible gum, semolina",0,10,25,5,4,23
-112,Papad,"Urad dal, sev, lemon juice, chopped tomatoes",0,5,5,4,1,1
-113,Paratha,"Wheat flour, butter, potato, coriander",0,15,45,4,3,18
-114,Pattor,"Arbi ke patte, sesame seeds, gur, bengal gram flour, imli",0,10,30,4,3,19
-115,Pindi chana,"Fennel, tea bags, tomato, kasuri methi, cinnamon",0,500,120,4,3,18
-116,Rajma chaval,"Red kidney beans, garam masala powder, ginger, tomato, mustard oil",0,15,90,4,3,1
-117,Rongi,"Garam masala powder, tomato, kasuri methi, cinnamon, mustard oil",0,10,30,1,3,18
-118,Samosa,"Potatoes, green peas, garam masala, ginger, dough",0,30,30,4,1,1
-119,Sattu ki roti,"Sattu, atta, dough, filling, mustard oil",0,10,20,4,3,4
-120,Shahi paneer,"Cottage cheese, malai, garam masala, ginger, tomato",0,20,40,4,3,18
-121,Shahi tukra,"Rose water, milk, white bread slices, saffron, almonds",0,10,30,5,4,21
-122,Vegetable jalfrezi,"Baby corn, french beans, garam masala, ginger, carrot",0,10,30,4,3,18
-123,Tandoori Chicken,"Greek yogurt, garam masala, kasuri methi, marinade, mustard oil",1,240,30,4,3,18
-124,Tandoori Fish Tikka,"Chickpea flour, biryani masala powder, yogurt, fish fillets, green bell pepper",1,240,30,4,2,18
-125,Attu,"Whole wheat flour, arhar dal, ginger, kala jeera, green chilli",0,150,25,4,1,2
-126,Avial,"Raw banana, elephant foot yam, long beans, tindora, urad dal",0,30,45,4,3,11
-127,Bisi bele bath,"Split pigeon peas, chana dal, urad dal, green peas, french beans",0,30,45,4,3,10
-128,Currivepillai sadam ,"Chana dal, urad dal, fresh coconut, sesame seeds, curry leaves",0,10,20,4,3,20
-129,Dosa,"Chana dal, urad dal, whole urad dal, blend rice, rock salt",0,360,90,4,1,1
-130,Idiappam,"Rice flour, hot water, grated coconut",0,120,30,4,1,20
-131,Idli,"Split urad dal, urad dal, idli rice, thick poha, rock salt",0,360,90,4,1,1
-132,Kanji,"Carrot, yellow mustard, red chilli, black salt",0,10,45,1,1,11
-133,Kaara kozhambu,"Sesame oil, drumstick, tamarind paste, sambar powder, tomato",0,-1,-1,4,3,20
-134,Keerai kootu,"Moong dal, chana dal, spinach, urad dal, coconut oil",0,20,30,4,3,20
-135,Keerai masiyal,"Urad dal, curry leaves, sugar, mustard seeds, spinach",0,-1,-1,4,3,20
-136,Keerai sadam,"Greens, tomato, mustard seeds, fenugreek seeds",0,10,20,4,3,20
-137,Keerai poriyal,"Amaranth leaves, split urad dal, mustard seeds, grated coconut, red chili",0,20,30,4,3,20
-138,Beef Fry,"Beef, coconut, garam masala, curry leaves, green chilies, chili powder",1,10,60,4,3,11
-139,Kootu,"Chana dal, urad dal, potato, beans, peas",0,10,15,4,3,20
-140,Kos kootu,"Moong dal, chana dal, cabbage, tamarind, curry leaves",0,10,20,4,3,20
-141,Koshambri,"Moong dal, cucumber, curry leaves, green chili, lemon juice",0,10,20,4,3,10
-142,Kothamali sadam,"Chana dal, urad dal, gooseberry, raw rice, curry leaves",0,10,20,4,3,20
-143,Kuzhakkattai,"Sesame oil, raw rice, jaggery, grated coconut",0,10,90,4,3,20
-144,Kuzhambu,"Pearl onions, urad dal, drumsticks, tomato, curry leaves",0,5,30,4,3,20
-145,Masala Dosa,"Chana dal, urad dal, potatoes, idli rice, thick poha",0,360,90,4,1,1
-146,Pachadi,"Coconut oil, cucumber, curd, curry leaves, mustard seeds",0,10,25,1,3,1
-147,Paniyaram,"Yogurt, ginger, curry leaves, baking soda, green chilli",0,10,20,1,3,20
-148,Papadum,"Lentils, black pepper, vegetable oil",0,5,5,4,1,11
-149,Paravannam,"Raw rice,  jaggery, milk",0,-1,-1,4,3,11
-150,Payasam,"Rice, cashew nuts, milk, raisins, sugar",0,15,30,5,4,1
-151,Paruppu sadam,"Arhar dal, sambar powder, tomato, curry leaves, fennel seeds",0,10,20,1,3,20
-152,Pesarattu,"Green moong beans, rice flour",0,120,20,4,1,2
-153,Poriyal,"Chana dal, urad dal, beans, coconut, mustard",0,-1,-1,4,3,20
-154,Puli sadam,"Urad dal, lemon, tamarind, cooked rice, curry leaves",0,10,20,1,3,20
-155,Rasam,"Tomato, curry leaves, garlic, mustard seeds, hot water",0,10,35,4,3,1
-156,Puttu,"Brown rice flour, sugar, grated coconut",0,495,40,1,3,11
-157,Sambar,"Pigeon peas, eggplant, drumsticks, sambar powder, tamarind",0,20,45,4,3,1
-158,Sandige,"Thin rice flakes, black sesame seeds, curry leaves",0,120,60,1,3,10
-159,Sevai,"Sevai, parboiled rice, steamer",0,120,30,1,3,1
-160,Thayir sadam,"Urad dal, curd, sesame oil, ginger, curry leaves, mustard seeds",0,10,20,1,3,20
-161,Theeyal,"Coconut, whole red beans, masala, sesame oil, tamarind",0,15,20,1,3,11
-162,Uttapam,"Chana dal, urad dal, thick poha, tomato, butter",0,10,20,4,1,1
-163,Vada,"Urad dal, ginger, curry leaves, green chilies, black pepper",0,15,20,4,1,1
-164,Chicken Varuval,"Meat curry powder, chicken chunks, ginger, tomato, cinnamon",1,10,35,4,3,20
-165,Upma,"Chana dal, urad dal, ginger, curry leaves, sugar",0,10,20,4,1,1
-166,Amti,"Kala masala, arhar dal, curry leaves, mustard seeds, hot water",0,10,45,4,3,13
-167,Zunka,"Gram flour, mustard, garlic, turmeric, red chilli",0,10,25,4,3,13
-168,Kolim Jawla,"Baingan, fish, coconut oil, fresh coconut, ginger",1,-1,-1,4,3,13
-169,Saath,"Urad dal, potatoes, wheat flour, sooji",0,20,40,4,3,7
-170,Bajri no rotlo,"Wheat flour, pearl millet flour, hot water",0,10,10,4,3,7
-171,Coconut vadi,"Condensed milk, mawa, desiccated coconut, almonds, cashews",0,20,30,5,4,13
-172,Bhakri,"Jowar flour, sesame seeds",0,20,25,1,3,13
-173,Bombil fry,"Bombay duck, malvani masala, rice flour, bombay rava, green chilies",1,-1,-1,4,3,13
-174,Chakali,"Rice flour, sesame, plain flour, turmeric, red chilli",0,10,40,4,1,13
-175,Chevdo,"Citric acid, fry, raisins, sugar, chana daal",0,20,30,4,1,7
-176,Chorafali,"Urad dal, bengal gram flour, dried mango, baking soda, black salt",0,5,15,4,1,7
-177,Copra paak,"Condensed milk, nestle cream, coconut ice, red food coloring, desiccated coconut",0,20,30,1,3,7
-178,Daal Dhokli,"Whole wheat flour, dal, kokum, gur, bengal gram flour",0,20,30,4,3,7
-179,Kutchi dabeli,"Pav, aloo, peanut, pomegranate, star anise",0,30,10,4,1,7
-180,Dahi vada,"Urad dal, bhuna chana, garam masala, dates, tamarind",0,30,30,1,1,13
-181,Dalithoy,"Arhar dal, coconut oil, curry leaves, mustard seeds, red chilli",0,5,20,1,3,13
-182,Dhokla,"Rava, coconut, gram flour, mustard, sesame",0,10,20,4,1,7
-183,Dudhi halwa,"Bottle gourd, green, raisins, sugar, clarified butter",0,15,30,5,4,7
-184,Gatta curry,"Yogurt, besan, sauce, garam masala powder, gram flour",0,10,20,4,3,19
-185,Gud papdi,"Wheat flour, jaggery, clarified butter, sliced almonds",0,10,20,5,4,7
-186,Ghooghra,"Dry fruits, semolina, all purpose flour",0,-1,-1,4,1,7
-187,Handwo,"Bottle gourd, chana dal, cabbage, urad dal, toor dal",0,20,30,4,1,7
-188,Halvasan,"Whole wheat rava, chia seed, lemon, edible gum, litre milk",0,-1,-1,5,4,7
-189,Jeera Aloo,"Green chilies, lemon juice, chili powder, boiled potatoes",0,10,30,4,3,7
-190,Kansar,"Wheat flour, cashews, rapeseed oil",0,10,40,1,3,7
-191,Keri no ras,"Mango, sugar",0,10,10,3,3,7
-192,Khakhra,"Whole wheat flour, low fat, bengal gram flour",0,20,40,4,1,7
-193,Khandvi,"Green chili paste, white sesame seeds, gram flour, curry leaves, green chili",0,20,45,4,1,7
-194,Kombdi vade,"Rice flour, urad dal, wheat flour, gram flour, turmeric",0,10,25,4,1,13
-195,Laapsi,"Cinnamon, jaggery, clarified butter, dry roasted",0,10,40,4,3,12
-196,Koshimbir,"Cucumber, carrot, tomatoes, cilantro",0,10,10,4,3,13
-197,Methi na Gota,"Rava, gram flour, lemon juice, turmeric, fenugreek leaves",0,15,30,2,3,7
-198,Mohanthal,"Rose water, pistachio, badam, bengal gram flour, saffron",0,5,45,5,4,7
-199,Muthiya,"Bottle gourd, whole wheat flour, rava, sesame seeds, bengal gram flour",0,15,30,2,1,7
-200,Patra,"Arbi ke patte, sesame seeds, gur, bengal gram flour, imli",0,10,40,4,1,7
-201,Pav Bhaji,"Pav bhaji masala, gobi, potatoes, green peas, dinner rolls",0,20,40,4,3,13
-202,Puri Bhaji,"Aloo, urad dal, mustard, ginger, curry leaves",0,10,30,4,3,13
-203,Sabudana Khichadi,"Raw peanuts, sabudana, lemon, avocado oil, curry leaves, green chili",0,70,30,4,1,13
-204,Sev khamani,"Khaman, pomegranate, sev, powdered sugar, garlic",0,20,30,4,3,7
-205,Sev tameta,"Sev, ginger, tomato, sugar",0,20,30,4,3,7
-206,Namakpara,"Wheat flour, baking soda, all purpose flour, black pepper, sunflower oil",0,10,35,4,1,7
-207,Sukhdi,"Whole wheat flour, gur, clarified butter",0,10,20,5,4,13
-208,Surnoli,"Rice flakes, yogurt, raw rice, jaggery, grated coconut",0,60,10,4,1,13
-209,Thalipeeth,"Whole wheat flour, rice flour, pearl millet flour, sorghum flour, sesame seeds",0,25,30,4,3,13
-210,Undhiyu,"Sweet potato, surti papdi, baby potatoes, valor papdi, green peas",0,25,60,4,3,7
-211,Veg Kolhapuri,"Gobi, potato, beans, khus khus, coconut",0,20,30,4,3,13
-212,Vindaloo,"Chicken, coconut oil, wine vinegar, ginger, green, cinnamon",1,10,40,4,3,6
-213,Lilva Kachori,"Green garlic chutney, fresh green peas, ginger, lemon juice, plain flour",0,30,6,4,1,7
-214,Mag Dhokli,"Moong beans, jaggery, red chillies, oil, salt",0,-1,-1,4,1,7
-215,Khichu,"Rice flour, sesame seeds, baking soda, peanut oil",0,5,10,4,1,7
-216,Thepla,"Chickpea flour, methi leaves, jowar flour, wheat flour",0,15,30,4,1,7
-217,Farsi Puri,"Semolina, clarified butter, oil, white flour, black pepper",0,-1,-1,1,1,7
-218,Khaman,"Yogurt, fresh coconut, sesame seeds, semolina, gram flour",0,10,20,4,1,7
-219,Turiya Patra Vatana sabji,"Ridge gourd, baking soda, sugar, grated coconut, peas",0,35,40,4,3,7
-220,Churma Ladoo,"Whole wheat flour, khus khus, sesame seeds, dry coconut, gur",0,12,40,5,4,19
-221,Cheera Doi,"Rice, mango, curd",0,-1,-1,5,4,25
-222,Gheela Pitha,"Sticky rice, rice flour, jaggery, orange rind",0,10,30,5,4,3
-223,Khar,"Raw papaya, panch phoran masala, nigella seeds, mustard oil, fennel seeds",0,10,20,1,3,3
-224,Kumol Sawul,"Rice, eggs, carrot, beetroot",1,-1,-1,4,3,3
-225,Luchi,"Maida, vegetable oil",0,20,30,1,3,25
-226,Alu Pitika,"Potatoes, mustard oil, fish, green chillies",1,5,20,4,3,3
-227,Masor tenga,"Ridge gourd, fish, lemon, tomatoes, mustard oil",1,15,25,4,3,3
-228,Bengena Pitika,"Brinjal, onions, salt, sesame seeds, coriander",0,-1,-1,1,3,3
-229,Bilahi Maas,"Potatoes, garam masala, tomatoes, mustard oil, bay leaf",1,10,20,1,3,3
-230,Black rice,"Forbidden black rice, chicken, olive oil, slivered almonds, garlic powder",1,-1,-1,1,3,14
-231,Bora Sawul,"Biryani masala, mixed vegetables, yellow moong daal, whole red, mustard seeds",0,-1,-1,4,3,3
-232,Brown Rice,"Brown rice, soy sauce, olive oil",0,15,25,1,3,1
-233,Chingri malai curry,"Coconut milk, lobster, fresh green chilli, ginger, red onion",1,10,40,4,3,25
-234,Goja,"Baking soda, clarified butter, oil, all purpose flour",0,20,60,5,4,25
-235,Hando Guri,"Jaggery, raisins",0,-1,-1,5,4,3
-236,Haq Maas,"Lamb, garam masala powder, curd, turmeric, bay leaf",1,20,40,4,3,3
-237,Chingri Bhape,"Coconut, prawns, curd, mustard seed, green chili",1,15,30,1,3,25
-238,Kabiraji,"Fish fillet, besan, lemon, mint, ginger",1,-1,-1,4,3,25
-239,Khorisa,"Fermented bamboo shoot, potato, ginger, green, mustard oil",0,-1,-1,4,3,3
-240,Koldil Chicken,"Banana flower, chicken, green chili, mustard oil, lemon juice",1,-1,-1,4,3,3
-241,Konir Dom,"Aloo, tomatoes, mustard oil, bay leaf, cinnamon stick",1,-1,-1,4,3,3
-242,Koldil Duck,"Rice flour, mutton, banana, gram flour, olive oil, baking powder",1,-1,-1,4,3,3
-243,Masor Koni,"Fish roe, pumpkin flowers, mustard oil, turmeric, tomato",1,-1,-1,4,3,3
-244,Mishti Chholar Dal,"Chana dal, fresh coconut, ginger, cinnamon, raisins",0,10,30,5,3,25
-245,Pakhala,"Curd, cooked rice, curry leaves, dry chilli",0,-1,-1,1,3,17
-246,Pani Pitha,"Tea leaves, white sesame seeds, dry coconut, soaked rice",0,10,20,1,3,3
-247,Payokh,"Basmati rice, rose water, sugar, clarified butter, cardamom pods",0,-1,-1,5,4,3
-248,Prawn malai curry,"Coconut milk, prawns, garlic, turmeric, sugar",1,15,50,4,3,25
-249,Red Rice,"Red pepper, red onion, butter, watercress, olive oil",0,-1,-1,1,3,1
-250,Shukto,"Green beans, bitter gourd, ridge gourd, banana, brinjal",0,10,20,4,3,25
-251,Til Pitha,"Glutinous rice, black sesame seeds, gur",0,5,30,5,4,3
-252,Bebinca,"Coconut milk, egg yolks, clarified butter, all purpose flour",0,20,60,5,4,6
-253,Shufta,"Cottage cheese, dry dates, dried rose petals, pistachio, badam",0,-1,-1,5,4,9
-254,Mawa Bati,"Milk powder, dry fruits, arrowroot powder, all purpose flour",0,20,45,5,4,12
-255,Pinaca,"Brown rice, fennel seeds, grated coconut, black pepper, ginger powder",0,-1,-1,5,4,6
+﻿ID,name,diet,flavour_ID,course_ID,state_ID
+1,Balu shahi,1,5,4,25
+2,Boondi,1,5,4,19
+3,Gajar ka halwa,1,5,4,18
+4,Ghevar,1,5,4,19
+5,Gulab jamun,1,5,4,25
+6,Imarti,1,5,4,25
+7,Jalebi,1,5,4,23
+8,Kaju katli,1,5,4,1
+9,Kalakand,1,5,4,25
+10,Kheer,1,5,4,1
+11,Laddu,1,5,4,1
+12,Lassi,1,5,4,18
+13,Nankhatai,1,5,4,1
+14,Petha,1,5,4,23
+15,Phirni,1,5,4,17
+16,Rabri,1,5,4,23
+17,Sheera,1,5,4,13
+18,Singori,1,5,4,24
+19,Sohan halwa,1,5,4,23
+20,Sohan papdi,1,5,4,13
+21,Chhena jalebi,1,5,4,17
+22,Chhena kheeri,1,5,4,17
+23,Chhena poda,1,5,4,17
+24,Cham cham,1,5,4,25
+25,Kheer sagar,1,5,4,17
+26,Ledikeni,1,5,4,25
+27,Lyangcha,1,5,4,3
+28,Malapua,1,5,4,4
+29,Mihidana,1,5,4,25
+30,Misti doi,1,5,4,25
+31,Pantua,1,5,4,25
+32,Pithe,1,5,4,3
+33,Rasabali,1,5,4,17
+34,Ras malai,1,5,4,25
+35,Rasgulla,1,5,4,25
+36,Sandesh,1,5,4,25
+37,Adhirasam,1,5,4,25
+38,Ariselu,1,5,4,2
+39,Bandar laddu,1,5,4,2
+40,Chikki,1,5,4,13
+41,Dharwad pedha,1,5,4,10
+42,Double ka meetha,1,5,4,21
+43,Gavvalu,1,5,4,2
+44,Kakinada khaja,1,5,4,2
+45,Kuzhi paniyaram,1,5,4,11
+46,Mysore pak,1,5,4,10
+47,Obbattu holige,1,5,3,10
+48,Palathalikalu,1,5,4,2
+49,Poornalu,1,5,4,2
+50,Pongal,1,5,4,20
+51,Pootharekulu,1,5,4,2
+52,Qubani ka meetha,1,5,4,21
+53,Sheer korma,1,5,4,21
+54,Unni Appam,1,5,4,20
+55,Kajjikaya,1,5,4,2
+56,Anarsa,1,5,4,13
+57,Basundi,1,5,4,7
+58,Dhondas,1,5,4,13
+59,Doodhpak,1,5,4,7
+60,Mahim halwa,1,5,4,13
+61,Modak,1,5,4,13
+62,Shankarpali,1,5,4,13
+63,Shrikhand,1,5,4,13
+64,Sutar feni,1,5,4,13
+65,Maach Jhol,2,4,3,3
+66,Pork Bharta,2,4,3,22
+67,Chak Hao Kheer,1,5,4,14
+68,Galho,2,4,3,15
+69,Aloo gobi,1,4,3,18
+70,Aloo tikki,1,4,3,18
+71,Aloo matar,1,4,3,18
+72,Aloo methi,1,2,3,18
+73,Aloo shimla mirch,1,4,3,18
+74,Bhatura,1,4,3,18
+75,Bhindi masala,1,4,3,18
+76,Biryani,2,4,3,21
+77,Butter chicken,2,4,3,16
+78,Chana masala,1,4,3,18
+79,Chapati,1,1,3,13
+80,Chicken razala,2,4,3,25
+81,Chicken Tikka masala,2,4,3,18
+82,Chicken Tikka,2,4,2,18
+83,Chole bhature,1,4,3,18
+84,Daal baati churma,1,4,3,19
+85,Daal puri,1,4,3,25
+86,Dal makhani ,1,5,3,18
+87,Dal tadka,1,4,3,18
+88,Dum aloo,1,4,3,9
+89,Poha,1,4,1,13
+90,Fara,1,4,1,5
+91,Kachori,1,4,1,23
+92,Kadai paneer,1,4,3,18
+93,Kadhi pakoda,1,4,3,8
+94,Karela bharta,1,2,3,18
+95,Khichdi,1,4,3,1
+96,Kofta,1,4,3,23
+97,Kulfi falooda,1,5,4,1
+98,Lauki ke kofte,1,4,3,23
+99,Lauki ki subji,1,4,3,1
+100,Litti chokha,1,4,3,4
+101,Makki di roti sarson da saag,1,4,3,18
+102,Misi roti,1,4,3,18
+103,Mushroom do pyaza,1,4,3,18
+104,Mushroom matar,1,4,3,18
+105,Naan,1,1,3,18
+106,Navrattan korma,1,4,3,23
+107,Palak paneer,1,4,3,18
+108,Paneer butter masala,1,4,3,18
+109,Paneer tikka masala,1,4,3,18
+110,Pani puri,1,4,1,1
+111,Panjeeri,1,5,4,23
+112,Papad,1,4,1,1
+113,Paratha,1,4,3,18
+114,Pattor,1,4,3,19
+115,Pindi chana,1,4,3,18
+116,Rajma chaval,1,4,3,1
+117,Rongi,1,1,3,18
+118,Samosa,1,4,1,1
+119,Sattu ki roti,1,4,3,4
+120,Shahi paneer,1,4,3,18
+121,Shahi tukra,1,5,4,21
+122,Vegetable jalfrezi,1,4,3,18
+123,Tandoori Chicken,2,4,3,18
+124,Tandoori Fish Tikka,2,4,2,18
+125,Attu,1,4,1,2
+126,Avial,1,4,3,11
+127,Bisi bele bath,1,4,3,10
+128,Currivepillai sadam ,1,4,3,20
+129,Dosa,1,4,1,1
+130,Idiappam,1,4,1,20
+131,Idli,1,4,1,1
+132,Kanji,1,1,1,11
+133,Kaara kozhambu,1,4,3,20
+134,Keerai kootu,1,4,3,20
+135,Keerai masiyal,1,4,3,20
+136,Keerai sadam,1,4,3,20
+137,Keerai poriyal,1,4,3,20
+138,Beef Fry,2,4,3,11
+139,Kootu,1,4,3,20
+140,Kos kootu,1,4,3,20
+141,Koshambri,1,4,3,10
+142,Kothamali sadam,1,4,3,20
+143,Kuzhakkattai,1,4,3,20
+144,Kuzhambu,1,4,3,20
+145,Masala Dosa,1,4,1,1
+146,Pachadi,1,1,3,1
+147,Paniyaram,1,1,3,20
+148,Papadum,1,4,1,11
+149,Paravannam,1,4,3,11
+150,Payasam,1,5,4,1
+151,Paruppu sadam,1,1,3,20
+152,Pesarattu,1,4,1,2
+153,Poriyal,1,4,3,20
+154,Puli sadam,1,1,3,20
+155,Rasam,1,4,3,1
+156,Puttu,1,1,3,11
+157,Sambar,1,4,3,1
+158,Sandige,1,1,3,10
+159,Sevai,1,1,3,1
+160,Thayir sadam,1,1,3,20
+161,Theeyal,1,1,3,11
+162,Uttapam,1,4,1,1
+163,Vada,1,4,1,1
+164,Chicken Varuval,2,4,3,20
+165,Upma,1,4,1,1
+166,Amti,1,4,3,13
+167,Zunka,1,4,3,13
+168,Kolim Jawla,2,4,3,13
+169,Saath,1,4,3,7
+170,Bajri no rotlo,1,4,3,7
+171,Coconut vadi,1,5,4,13
+172,Bhakri,1,1,3,13
+173,Bombil fry,2,4,3,13
+174,Chakali,1,4,1,13
+175,Chevdo,1,4,1,7
+176,Chorafali,1,4,1,7
+177,Copra paak,1,1,3,7
+178,Daal Dhokli,1,4,3,7
+179,Kutchi dabeli,1,4,1,7
+180,Dahi vada,1,1,1,13
+181,Dalithoy,1,1,3,13
+182,Dhokla,1,4,1,7
+183,Dudhi halwa,1,5,4,7
+184,Gatta curry,1,4,3,19
+185,Gud papdi,1,5,4,7
+186,Ghooghra,1,4,1,7
+187,Handwo,1,4,1,7
+188,Halvasan,1,5,4,7
+189,Jeera Aloo,1,4,3,7
+190,Kansar,1,1,3,7
+191,Keri no ras,1,3,3,7
+192,Khakhra,1,4,1,7
+193,Khandvi,1,4,1,7
+194,Kombdi vade,1,4,1,13
+195,Laapsi,1,4,3,12
+196,Koshimbir,1,4,3,13
+197,Methi na Gota,1,2,3,7
+198,Mohanthal,1,5,4,7
+199,Muthiya,1,2,1,7
+200,Patra,1,4,1,7
+201,Pav Bhaji,1,4,3,13
+202,Puri Bhaji,1,4,3,13
+203,Sabudana Khichadi,1,4,1,13
+204,Sev khamani,1,4,3,7
+205,Sev tameta,1,4,3,7
+206,Namakpara,1,4,1,7
+207,Sukhdi,1,5,4,13
+208,Surnoli,1,4,1,13
+209,Thalipeeth,1,4,3,13
+210,Undhiyu,1,4,3,7
+211,Veg Kolhapuri,1,4,3,13
+212,Vindaloo,2,4,3,6
+213,Lilva Kachori,1,4,1,7
+214,Mag Dhokli,1,4,1,7
+215,Khichu,1,4,1,7
+216,Thepla,1,4,1,7
+217,Farsi Puri,1,1,1,7
+218,Khaman,1,4,1,7
+219,Turiya Patra Vatana sabji,1,4,3,7
+220,Churma Ladoo,1,5,4,19
+221,Cheera Doi,1,5,4,25
+222,Gheela Pitha,1,5,4,3
+223,Khar,1,1,3,3
+224,Kumol Sawul,2,4,3,3
+225,Luchi,1,1,3,25
+226,Alu Pitika,2,4,3,3
+227,Masor tenga,2,4,3,3
+228,Bengena Pitika,1,1,3,3
+229,Bilahi Maas,2,1,3,3
+230,Black rice,2,1,3,14
+231,Bora Sawul,1,4,3,3
+232,Brown Rice,1,1,3,1
+233,Chingri malai curry,2,4,3,25
+234,Goja,1,5,4,25
+235,Hando Guri,1,5,4,3
+236,Haq Maas,2,4,3,3
+237,Chingri Bhape,2,1,3,25
+238,Kabiraji,2,4,3,25
+239,Khorisa,1,4,3,3
+240,Koldil Chicken,2,4,3,3
+241,Konir Dom,2,4,3,3
+242,Koldil Duck,2,4,3,3
+243,Masor Koni,2,4,3,3
+244,Mishti Chholar Dal,1,5,3,25
+245,Pakhala,1,1,3,17
+246,Pani Pitha,1,1,3,3
+247,Payokh,1,5,4,3
+248,Prawn malai curry,2,4,3,25
+249,Red Rice,1,1,3,1
+250,Shukto,1,4,3,25
+251,Til Pitha,1,5,4,3
+252,Bebinca,1,5,4,6
+253,Shufta,1,5,4,9
+254,Mawa Bati,1,5,4,12
+255,Pinaca,1,5,4,6

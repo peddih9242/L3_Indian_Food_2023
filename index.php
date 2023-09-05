@@ -1,5 +1,21 @@
 <!DOCTYPE HTML>
 
+<?php
+
+    session_start();
+    include("config.php");
+    include("functions.php");
+
+    // connect to database
+    $dbconnect=mysqli_connect(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME);
+
+    if(mysqli_connect_errno()) {
+        echo "Connection failed:".mysqli_connect_error();
+        exit;
+    }
+
+?>
+
 <html lang="en">
 
 <head>
@@ -72,7 +88,8 @@
             include("content/home.php");
         }
         else {
-            include("content/$page.php")
+            $page = preg_replace('/[^0-9a-zA-z]-/', '', $_REQUEST['page']);
+            include("content/$page.php");
         }
 
         ?>
