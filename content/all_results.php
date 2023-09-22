@@ -5,8 +5,12 @@ $search_type = $_REQUEST['search'];
 
 if ($search_type == "all") {
 
-    $sql_conditions = "SELECT * FROM `Food`";
-    $heading_type = "";
+    $find_sql = "SELECT
+    
+    f.*,
+    
+
+    ";
 
 }
 
