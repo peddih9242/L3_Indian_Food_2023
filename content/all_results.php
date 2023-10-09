@@ -4,38 +4,45 @@
 $search_type = $_REQUEST['search'];
 
 if ($search_type == "all") {
-
-    $find_sql = "SELECT
-    
-    f.*,
-    
-    FROM food f
-
-    JOIN Course c ON c.Course_ID = f.Course_ID
-    JOIN Diet d ON d.Diet_ID = f.Diet_ID
-    JOIN Flavor v ON v.Flavor_ID = f.Flavor_ID
-    JOIN States s ON s.State_ID = f.State_ID
-
-    ";
-    $find_query = mysqli_query($find_sql);
-    $find_rs = mysqli_fetch_assoc($find_query);
-    $find_count = mysqli_num_rows($find_query);
-
+    $heading = "All Foods";
+    $sql_conditions = "";
 }
-
 elseif ($search_type == "recent") {
-
-    $sql_conditions = "";
-    $heading_type = "";
-
+    $heading = "Recent Foods";
+    $sql_conditions = "ORDER BY q.ID DESC LIMIT 10";
 }
-
 elseif ($search_type == "random") {
-
-    $sql_conditions = "";
-    $heading_type = "";
-
+    $heading = "Random Foods";
+    $sql_conditions = "ORDER BY RAND() LIMIT 10";
 }
+
+// edit below code later
+elseif ($search_type == "author") {
+    // retrieve author ID
+    $author_ID = $_REQUEST['Author_ID'];
+
+    $heading = "";
+    $heading_type = "author";
+
+    $sql_conditions = "WHERE q.Author_ID = $author_ID";
+}
+
+elseif ($search_type == "subject") {
+    // retrieve subject ID
+    $subject_name = $_REQUEST['subject_name'];
+
+    $heading = "";
+    $heading_type = "subject";
+
+    $sql_conditions = "WHERE s1.Subject LIKE '$subject_name'
+                        OR s2.Subject LIKE '$subject_name'
+                        OR s3.Subject LIKE '$subject_name'";
+}
+
+else {
+    $heading = "No Results";
+    $sql_conditions = "WHERE q.ID = 1000";
+}+
 
 include("results.php");
 
