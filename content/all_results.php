@@ -42,7 +42,7 @@ elseif ($search_type == "subject") {
 else {
     $heading = "No Results";
     $sql_conditions = "WHERE q.ID = 1000";
-}+
+}
 
 include("results.php");
 
