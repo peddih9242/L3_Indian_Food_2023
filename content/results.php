@@ -26,18 +26,22 @@ if ($heading != "") {
 $heading = "<h2>$heading ($find_count $result_s)</h2>";
 }
 
-elseif ($heading_type == "") {
-    // retrieve author name
-    $author_rs = get_item_name($dbconnect, "author", "Author_ID", $author_ID);
+elseif ($heading_type == "diet") {
 
-    $heading= "";
+    $heading= "<h2>$diet Foods ($find_count $result_s)";
+
+}
+
+elseif ($heading_type == "flavor") {
+
+    $heading= "<h2>$flavor Foods ($find_count $result_s)";
 
 }
 
 elseif ($heading_type == "state") {
 
-    $title_state = ucwords($state);
-    $heading = "<h2>$title_state Quotes ($find_count $result_s)</h2>";
+    $title_state = ucwords($state_name);
+    $heading = "<h2>$title_state Foods ($find_count $result_s)</h2>";
 }
 
 elseif ($heading_type == "food_success") {
@@ -89,9 +93,16 @@ while($find_rs = mysqli_fetch_assoc($find_query)) {
             <a href="index.php?page=all_results&search=flavor&Flavor_ID=<?php echo $flavor_ID ?>"><?php echo $flavor ?></a>
         </p>
 
+        <?php if ($state != "-1") { ?>
         <p>
         <a href="index.php?page=all_results&search=state&State_ID=<?php echo $state_ID ?>"><?php echo $state ?></a>
         </p>
+
+        <?php
+        
+        }
+        
+        ?>
 
         <?php 
         

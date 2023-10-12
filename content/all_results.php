@@ -17,26 +17,35 @@ elseif ($search_type == "random") {
 }
 
 // edit below code later
-elseif ($search_type == "author") {
+elseif ($search_type == "diet") {
+    
     // retrieve author ID
-    $author_ID = $_REQUEST['Author_ID'];
+    $diet = $_REQUEST['Diet'];
 
     $heading = "";
-    $heading_type = "author";
+    $heading_type = "diet";
 
-    $sql_conditions = "WHERE q.Author_ID = $author_ID";
+    $sql_conditions = "WHERE diet.Diet LIKE '$diet'";
 }
 
-elseif ($search_type == "subject") {
+elseif ($search_type == "flavor") {
     // retrieve subject ID
-    $subject_name = $_REQUEST['subject_name'];
+    $flavor = $_REQUEST['Flavor'];
 
     $heading = "";
-    $heading_type = "subject";
+    $heading_type = "flavor";
 
-    $sql_conditions = "WHERE s1.Subject LIKE '$subject_name'
-                        OR s2.Subject LIKE '$subject_name'
-                        OR s3.Subject LIKE '$subject_name'";
+    $sql_conditions = "WHERE flavor.Flavor LIKE '$flavor'";
+}
+
+elseif ($search_type == "state") {
+    // retrieve subject ID
+    $state_name = $_REQUEST['State'];
+
+    $heading = "";
+    $heading_type = "state";
+
+    $sql_conditions = "WHERE states.State LIKE '$state_name'";
 }
 
 else {
