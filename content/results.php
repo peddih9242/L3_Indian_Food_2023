@@ -89,9 +89,17 @@ while($find_rs = mysqli_fetch_assoc($find_query)) {
             <a href="index.php?page=all_results&search=diet&Diet_ID=<?php echo $diet_ID ?>"><?php echo $diet ?></a> - <a href="index.php?page=all_results&search=course&Course_ID=<?php echo $course_ID ?>"><?php echo $course ?></a>
         </p>
 
+
+        <?php if ($flavor != "-1") { ?>
         <p>
             <a href="index.php?page=all_results&search=flavor&Flavor_ID=<?php echo $flavor_ID ?>"><?php echo $flavor ?></a>
         </p>
+
+        <?php
+
+        }
+
+        ?>
 
         <?php if ($state != "-1") { ?>
         <p>
