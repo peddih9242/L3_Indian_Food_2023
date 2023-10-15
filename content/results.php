@@ -1,16 +1,9 @@
 <?php
 
-$find_sql = "SELECT * FROM food
+$all_results = get_data($dbconnect, $sql_conditions);
 
-JOIN course ON food.Course_ID = course.Course_ID
-JOIN diet ON food.Diet_ID = diet.Diet_ID
-JOIN flavor ON food.Flavor_ID = flavor.Flavor_ID
-JOIN states ON food.State_ID = states.State_ID
-
-";
-$find_query = mysqli_query($dbconnect, $find_sql);
-$find_rs = mysqli_fetch_assoc($find_query);
-$find_count = mysqli_num_rows($find_query);
+$find_query = $all_results[0];
+$find_count = $all_results[1];
 
 if($find_count == 1) {
     $result_s = "Result";
@@ -28,20 +21,28 @@ $heading = "<h2>$heading ($find_count $result_s)</h2>";
 
 elseif ($heading_type == "diet") {
 
-    $heading= "<h2>$diet Foods ($find_count $result_s)";
+    $diet_name = ucwords($_REQUEST['diet']);
+    $heading = "<h2>$diet_name Foods ($find_count $result_s)</h2>";
 
 }
 
 elseif ($heading_type == "flavor") {
 
-    $heading= "<h2>$flavor Foods ($find_count $result_s)";
+    $flavor_name = ucwords($_REQUEST['flavor']);
+    $heading = "<h2>$flavor_name Foods ($find_count $result_s)</h2>";
 
 }
 
 elseif ($heading_type == "state") {
 
-    $title_state = ucwords($state_name);
+    $title_state = ucwords($_REQUEST['state']);
     $heading = "<h2>$title_state Foods ($find_count $result_s)</h2>";
+}
+
+elseif ($heading_type == "course") {
+
+    $course_name = ucwords($_REQUEST['course']);
+    $heading = "<h2>$course_name Foods ($find_count $result_s)</h2>";
 }
 
 elseif ($heading_type == "food_success") {
@@ -86,13 +87,13 @@ while($find_rs = mysqli_fetch_assoc($find_query)) {
         <h3><?php echo $food ?></h3>
 
         <p>
-            <a href="index.php?page=all_results&search=diet&Diet_ID=<?php echo $diet_ID ?>"><?php echo $diet ?></a> - <a href="index.php?page=all_results&search=course&Course_ID=<?php echo $course_ID ?>"><?php echo $course ?></a>
+            <a href="index.php?page=all_results&search=diet&Diet_ID=<?php echo $diet_ID ?>&diet=<?php echo $diet ?>"><?php echo $diet ?></a> - <a href="index.php?page=all_results&search=course&Course_ID=<?php echo $course_ID ?>&course=<?php echo $course ?>"><?php echo $course ?></a>
         </p>
 
 
         <?php if ($flavor != "-1") { ?>
         <p>
-            <a href="index.php?page=all_results&search=flavor&Flavor_ID=<?php echo $flavor_ID ?>"><?php echo $flavor ?></a>
+            <a href="index.php?page=all_results&search=flavor&Flavor_ID=<?php echo $flavor_ID ?>&flavor=<?php echo $flavor ?>"><?php echo $flavor ?></a>
         </p>
 
         <?php
@@ -103,7 +104,7 @@ while($find_rs = mysqli_fetch_assoc($find_query)) {
 
         <?php if ($state != "-1") { ?>
         <p>
-        <a href="index.php?page=all_results&search=state&State_ID=<?php echo $state_ID ?>"><?php echo $state ?></a>
+        <a href="index.php?page=all_results&search=state&State_ID=<?php echo $state_ID ?>&state=<?php echo $state ?>"><?php echo $state ?></a>
         </p>
 
         <?php

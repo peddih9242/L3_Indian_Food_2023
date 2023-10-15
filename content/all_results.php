@@ -20,32 +20,41 @@ elseif ($search_type == "random") {
 elseif ($search_type == "diet") {
     
     // retrieve author ID
-    $diet = $_REQUEST['Diet'];
+    $diet_ID = $_REQUEST['Diet_ID'];
 
     $heading = "";
     $heading_type = "diet";
 
-    $sql_conditions = "WHERE diet.Diet LIKE '$diet'";
+    $sql_conditions = "WHERE food.Diet_ID LIKE '$diet_ID'";
 }
 
 elseif ($search_type == "flavor") {
     // retrieve subject ID
-    $flavor = $_REQUEST['Flavor'];
+    $flavor_ID = $_REQUEST['Flavor_ID'];
 
     $heading = "";
     $heading_type = "flavor";
 
-    $sql_conditions = "WHERE flavor.Flavor LIKE '$flavor'";
+    $sql_conditions = "WHERE food.Flavor_ID LIKE '$flavor_ID'";
 }
 
 elseif ($search_type == "state") {
     // retrieve subject ID
-    $state_name = $_REQUEST['State'];
+    $state_ID = $_REQUEST['State_ID'];
 
     $heading = "";
     $heading_type = "state";
 
-    $sql_conditions = "WHERE states.State LIKE '$state_name'";
+    $sql_conditions = "WHERE food.State_ID LIKE '$state_ID'";
+}
+
+elseif ($search_type == "course") {
+
+    $course_ID = $_REQUEST['Course_ID'];
+    $heading = "";
+    $heading_type = "course";
+    
+    $sql_conditions = "WHERE food.Course_ID LIKE '$course_ID'";
 }
 
 else {
