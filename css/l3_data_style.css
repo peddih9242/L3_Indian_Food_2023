@@ -91,9 +91,13 @@ body {
 /* #### Links Styling  #### */
 
 /* Navigation Links */
-a.topnav {font-weight: bold;}
-a.topnav:link, a.topnav:visited {color: #007c72;} /*dark teal */
-a.topnav:hover {color: #707a00; text-decoration: none;} 
+.banner a, .linkwrapper a {
+    font-weight: bold;
+    text-decoration: none;
+    color: #22631a;
+}
+.banner a:visited {color: #22631a;} /*dark teal */
+.banner a:hover {color: #40911a; text-decoration: none;} 
 
 
 /* links in page */

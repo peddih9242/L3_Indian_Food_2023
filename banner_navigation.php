@@ -17,9 +17,18 @@
     <div class="topsearch">
         
         <!-- Quick Search -->           
-        <form method="post" action="quick_search.php" enctype="multipart/form-data">
+        <form method="post" action="index.php?page=quick_search" enctype="multipart/form-data">
 
             <input class="search quicksearch" type="text" name="quick_search" size="40" value="" required placeholder="Quick Search..." />
+
+            <select class="quick-choose" name="search_type">
+                <option value="all" selected>All</option>
+                <option value="name">Name</option>
+                <option value="diet">Diet</option>
+                <option value="course">Course</option>
+                <option value="flavor">Flavor</option>
+                <option value="State">State</option>
+            </select>
 
             <input class="submit" type="submit" name="find_quick" value="&#xf002;" />
 

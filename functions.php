@@ -1,9 +1,11 @@
 <?php 
 
 // function to 'clean' data
-function test_input($data) {
+function clean_input($dbconnect, $data) {
 	$data = trim($data);	
 	$data = htmlspecialchars($data); //  needed for correct special character rendering
+	// remove dodgy characters to prevent SQL injections
+	$data = mysqli_real_escape_string($dbconnect, $data);
 	return $data;
 }
 

@@ -9,7 +9,7 @@ if ($search_type == "all") {
 }
 elseif ($search_type == "recent") {
     $heading = "Recent Foods";
-    $sql_conditions = "ORDER BY q.ID DESC LIMIT 10";
+    $sql_conditions = "ORDER BY food.ID DESC LIMIT 10";
 }
 elseif ($search_type == "random") {
     $heading = "Random Foods";
