@@ -7,7 +7,7 @@ if(isset($_REQUEST['login'])) {
     $options = ['cost' => 9,];
 
     // Get username and hashed password from database
-    $login_sql = "SELECT * FROM `users` WHERE `username` = '$username'";
+    $login_sql = "SELECT * FROM `users` WHERE `Username` = '$username'";
     $login_query = mysqli_query($dbconnect, $login_sql);
     $login_rs = mysqli_fetch_assoc($login_query);
 
@@ -27,7 +27,7 @@ if (password_verify($_REQUEST['password'], $login_rs['Password'])) {
 echo 'password is valid';
 echo $username;
 $_SESSION['admin'] = $login_rs['Username'];
-header("Location: index.php?page=../admin/add_quote");
+header("Location: index.php?page=../admin/add_food");
 
 } // end valid password if
 

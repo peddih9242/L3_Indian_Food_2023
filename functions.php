@@ -32,5 +32,24 @@ function get_data($dbconnect, $more_condition=null) {
 	return $find_query_count = array($find_query, $find_count);
 	}
 
+	
+// entity is subject / full name of author
+function autocomplete_list($dbconnect, $item_sql, $entity)    
+{
+// Get entity / topic list from database
+$all_items_query = mysqli_query($dbconnect, $item_sql);
+    
+// Make item arrays for autocomplete functionality...
+while($row=mysqli_fetch_array($all_items_query))
+{
+  $item=$row[$entity];
+  $items[] = $item;
+}
+
+$all_items=json_encode($items);
+return $all_items;
+    
+}
+
 
 ?>

@@ -37,7 +37,7 @@
     </div>  <!-- / top search -->
     
     <div class="topadmin">
-        <a href="#">Log In</a>
+        <a href="index.php?page=../admin/login">Log In</a>
         
     </div>  <!-- / top admin -->
     
