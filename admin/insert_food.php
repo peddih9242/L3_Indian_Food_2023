@@ -7,7 +7,7 @@ if (isset($_SESSION['admin'])) {
 
     include("process_form.php");
 
-// add quote to DB
+// add food to DB
 $stmt = $dbconnect -> prepare("INSERT INTO `food` (`Name`, `Diet_ID`, `Flavor_ID`, `Course_ID`, `State_ID`) VALUES (?, ?, ?, ?, ?);");
 $stmt -> bind_param("siiii", $name, $diet_ID, $flavor_ID, $course_ID, $state_ID);
 $stmt -> execute();

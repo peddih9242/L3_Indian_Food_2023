@@ -16,17 +16,76 @@ include("autocomplete_items.php");
 
         <input name="name" placeholder="Name (required)" required />
         
-        <div class="autocomplete">
-            <input name="diet" id="diet" placeholder="Diet (required)" required /></p>
-        </div>
-        
-        <div class="autocomplete">
-            <input name="course" id="course" placeholder="Course (required)" required /></p>
-        </div>
+            <select name="diet" id="diet" placeholder="Diet (required)" required >
+            
+            <!-- get options from database -->
 
-        <div class="autocomplete">
-            <input name="flavor" id="flavor" placeholder="Flavor" />
-        </div>
+            <?php 
+            
+            $diet_sql = "SELECT * FROM `diet`
+            WHERE `Diet_ID` ORDER BY `Diet` ASC
+            ";
+            $diet_query = mysqli_query($dbconnect, $diet_sql);
+            $diet_rs = mysqli_fetch_assoc($diet_query);
+
+            do {
+                ?>
+                <option value="<?php echo $diet_rs['Diet_ID']; ?>"><?php echo $diet_rs['Diet']; ?></option>
+            
+            <?php
+            }
+
+            while($diet_rs=mysqli_fetch_assoc($diet_query))
+
+            ?>
+
+           </select>
+        
+            <select name="course" id="course" placeholder="Course (required)" required >
+
+            <?php 
+            
+            $course_sql = "SELECT * FROM `course`
+            WHERE `Course_ID` ORDER BY `Course` ASC
+            ";
+            $course_query = mysqli_query($dbconnect, $course_sql);
+            $course_rs = mysqli_fetch_assoc($course_query);
+
+            do {
+                ?>
+                <option value="<?php echo $course_rs['Course_ID']; ?>"><?php echo $course_rs['Course']; ?></option>
+            
+            <?php
+            }
+
+            while($course_rs=mysqli_fetch_assoc($course_query))
+
+            ?>
+
+            </select>
+
+            <select name="flavor" id="flavor" placeholder="Flavor" >
+
+            <?php 
+            
+            $flavor_sql = "SELECT * FROM `flavor`
+            WHERE `Flavor_ID` NOT LIKE '1' ORDER BY `Flavor` ASC
+            ";
+            $flavor_query = mysqli_query($dbconnect, $flavor_sql);
+            $flavor_rs = mysqli_fetch_assoc($flavor_query);
+
+            do {
+                ?>
+                <option value="<?php echo $flavor_rs['Flavor_ID']; ?>"><?php echo $flavor_rs['Flavor']; ?></option>
+            
+            <?php
+            }
+
+            while($flavor_rs=mysqli_fetch_assoc($flavor_query))
+
+            ?>
+
+            </select>
 
         <br /><br />
 
@@ -43,15 +102,6 @@ include("autocomplete_items.php");
         <?php include ("autocomplete.php") ?>
 
         // Arrays containing lists
-        var all_diet = <?php print("$all_diets") ?>;
-        autocomplete(document.getElementById("diet"), all_diet);
-
-        var all_course = <?php print("$all_courses") ?>;
-        autocomplete(document.getElementById("course"), all_course)
-
-        var all_flavor = <?php print ("$all_flavors") ?>;
-        autocomplete(document.getElementById("flavor"), all_flavor)
-
         var all_state = <?php print("$all_states") ?>;
         autocomplete(document.getElementById("state"), all_state)
 

@@ -235,6 +235,13 @@ input, textarea {
     border: solid 1px #000;
 }
 
+select {
+    height: 40px;
+    padding: 8px 15px;
+    margin-top: 10px;
+    width: 197px;
+}
+
 /* media queries */
 
 @media only screen and (max-width: 1175px) {
