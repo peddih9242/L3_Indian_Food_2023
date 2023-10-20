@@ -17,6 +17,8 @@ include("autocomplete_items.php");
         <input name="name" placeholder="Name (required)" required />
         
             <select name="diet" id="diet" placeholder="Diet (required)" required >
+
+            <option value="" disabled selected>Diet</option>
             
             <!-- get options from database -->
 
@@ -43,6 +45,8 @@ include("autocomplete_items.php");
         
             <select name="course" id="course" placeholder="Course (required)" required >
 
+            <option value="" disabled selected>Course</option>
+
             <?php 
             
             $course_sql = "SELECT * FROM `course`
@@ -64,7 +68,9 @@ include("autocomplete_items.php");
 
             </select>
 
-            <select name="flavor" id="flavor" placeholder="Flavor" >
+            <select name="flavor" id="flavor" placeholder="Flavor" required>
+
+            <option value="" disabled selected>Flavor</option>
 
             <?php 
             

@@ -2,36 +2,28 @@
 // retrieve data from form
     $name = $_REQUEST['name'];
 
-    $diet = $_REQUEST['diet'];
-    $course = $_REQUEST['course'];
-    $flavor = $_REQUEST['flavor'];
+    $diet_ID = $_REQUEST['diet'];
+    $course_ID = $_REQUEST['course'];
+    $flavor_ID = $_REQUEST['flavor'];
     $state = $_REQUEST['state'];
-
-    // handle blank fields
-    if ($flavor == "") {
-        $flavor = "-1";
-    }
-
-    if ($state == "") {
-        $state = "-1";
-    }
 
     // checks if state is in DB, if not then adds to DB
     
-    // statement to insert subject/s
+    // statement to insert state
     $stmt = $dbconnect -> prepare("INSERT INTO `states` (`State`)
     VALUES (?);");
 
-    $state = get_search_ID($dbconnect, $subject);
+    $state_ID = get_search_ID($dbconnect, $state);
 
-    if ($state == "no results") {
+    if ($state_ID == "no results") {
         
         // insert the subject
         $stmt -> bind_param("s", $state);
         $stmt -> execute();
 
-        // retrieve subject ID
-        $stateID = $dbconnect -> insert_id;
+        // retrieve state ID
+        $state_ID = $dbconnect -> insert_id;
+
     }
 
     $stmt -> close();

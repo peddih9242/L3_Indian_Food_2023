@@ -52,4 +52,23 @@ return $all_items;
 }
 
 
+// get search ID
+function get_search_ID($dbconnect, $search_term) {
+	$find_sql = "SELECT * FROM `states` WHERE State LIKE '$search_term'";
+	$find_query = mysqli_query($dbconnect, $find_sql);
+	$find_rs = mysqli_fetch_assoc($find_query);
+
+	// count results
+	$find_count = mysqli_num_rows($find_query);
+
+	if ($find_count == 1) {
+		return $find_rs['State_ID'];
+	}
+	else {
+		return "no results";
+	}
+
+}
+
+
 ?>
