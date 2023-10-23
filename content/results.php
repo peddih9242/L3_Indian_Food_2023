@@ -47,12 +47,12 @@ elseif ($heading_type == "course") {
 
 elseif ($heading_type == "food_success") {
     $heading = "<h2>Insert Food Success</h2>
-    <p>You have inserted the following quote...</p>";
+    <p>You have inserted the following food...</p>";
 }
 
 elseif ($heading_type == "edit_success") {
     $heading = "<h2>Edit Food Sucess</h2>
-    <p>You have edited the quote. The entry is now...</p>";
+    <p>You have edited the food. The entry is now...</p>";
 }
 
 elseif ($heading_type == "delete_food") {

@@ -7,8 +7,6 @@ include("autocomplete_items.php");
 
 ?>
 
-<h2>Add Food</h2>
-
 <div class="admin-form">
     <h1>Add a Food</h1>
 
@@ -99,9 +97,12 @@ include("autocomplete_items.php");
             <input name="state" id="state" placeholder="State" />
         </div>
 
-        <br /><br />
+        <br />
 
         <input class="form-submit" type="submit" name="submit" value="Submit Food" />
+
+        <br/><br/>
+
     </form>
 
     <script>
