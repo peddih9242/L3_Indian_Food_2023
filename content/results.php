@@ -121,7 +121,10 @@ while($find_rs = mysqli_fetch_assoc($find_query)) {
 
             ?>
 
-            <!-- add delete and edit icons here -->
+            <div class="tools">
+                <a href="index.php?page=../admin/editfood&ID=<?php echo $ID ?>"><i class="fa fa-edit fa-2x"></i></a> &nbsp;&nbsp;
+                <a href="index.php?page=../admin/deleteconfirm&ID=<?php echo $ID ?>"><i class="fa fa-trash fa-2x"></i></a>
+            </div>
 
             <?php
 
